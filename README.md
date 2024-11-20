@@ -1,4 +1,3 @@
-```
 # Marketing Tool
 
 Dieses Projekt ist ein leistungsstarkes Marketing-Tool, das eine grafische Benutzeroberfläche (GUI) bietet, um Marketingtexte zu erstellen und E-Mails direkt zu versenden. Es integriert die **OpenAI API**, um KI-generierte Inhalte zu erstellen, und bietet umfassende Konfigurationsmöglichkeiten.
@@ -28,6 +27,7 @@ Dieses Projekt ist ein leistungsstarkes Marketing-Tool, das eine grafische Benut
 ## **Installation**
 
 ### **1. Klone das Repository**
+
 ```bash
 git clone https://github.com/MTSmash-TMP-Networks/TMP-Networks-Marketing-Tool/marketing-tool.git
 cd marketing-tool
@@ -35,6 +35,7 @@ cd marketing-tool
 
 ### **2. Virtuelle Umgebung erstellen**
 Erstelle eine virtuelle Umgebung, um Abhängigkeiten zu isolieren:
+
 ```bash
 python3.11 -m venv venv
 source venv/bin/activate  # Unter Windows: venv\Scripts\activate
@@ -42,6 +43,7 @@ source venv/bin/activate  # Unter Windows: venv\Scripts\activate
 
 ### **3. Abhängigkeiten installieren**
 Installiere alle benötigten Bibliotheken:
+
 ```bash
 pip install -r requirements.txt
 ```
