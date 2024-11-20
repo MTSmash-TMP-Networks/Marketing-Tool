@@ -29,7 +29,7 @@ Dieses Projekt ist ein leistungsstarkes Marketing-Tool, das eine grafische Benut
 
 ### **1. Klone das Repository**
 ```bash
-git clone https://github.com/dein-username/marketing-tool.git
+git clone https://github.com/MTSmash-TMP-Networks/TMP-Networks-Marketing-Tool/marketing-tool.git
 cd marketing-tool
 ```
 
