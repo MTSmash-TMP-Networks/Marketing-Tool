@@ -138,4 +138,3 @@ Dieses Projekt ist unter der **MIT-Lizenz** lizenziert. Weitere Informationen fi
 ---
 
 Viel Spaß mit dem Marketing-Tool! 🎉
-```
