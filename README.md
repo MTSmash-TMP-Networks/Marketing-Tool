@@ -1,4 +1,4 @@
-```markdown
+```
 # Marketing Tool
 
 Dieses Projekt ist ein leistungsstarkes Marketing-Tool, das eine grafische Benutzeroberfläche (GUI) bietet, um Marketingtexte zu erstellen und E-Mails direkt zu versenden. Es integriert die **OpenAI API**, um KI-generierte Inhalte zu erstellen, und bietet umfassende Konfigurationsmöglichkeiten.
