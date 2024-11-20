@@ -4,13 +4,14 @@ on:
   push:
     branches:
       - main
+  pull_request:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: windows-latest  # Nutzt eine Windows-Maschine
 
     steps:
-    - name: Checkout code
+    - name: Checkout Repository
       uses: actions/checkout@v3
 
     - name: Set up Python
@@ -18,21 +19,22 @@ jobs:
       with:
         python-version: 3.11
 
-    - name: Install dependencies
+    - name: Install Dependencies
       run: |
         pip install -r requirements.txt
         pip install pyinstaller
 
     - name: Build EXE
+      shell: bash
       run: |
         pyinstaller --onefile --windowed --icon=assets/logo.ico \
-            --add-data "smtp_config.json;." \
-            --add-data "company_config.json;." \
-            --add-data "assets;assets" \
-            gui.py
+                    --add-data "smtp_config.json;." \
+                    --add-data "company_config.json;." \
+                    --add-data "assets;assets" \
+                    gui.py
 
-    - name: Upload EXE
+    - name: Upload Build Artifacts
       uses: actions/upload-artifact@v3
       with:
-        name: MarketingTool
-        path: dist/
+        name: MarketingTool-Windows
+        path: dist/gui.exe
