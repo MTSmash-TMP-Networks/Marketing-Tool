@@ -29,8 +29,8 @@ Dieses Projekt ist ein leistungsstarkes Marketing-Tool, das eine grafische Benut
 ### **1. Klone das Repository**
 
 ```bash
-git clone https://github.com/MTSmash-TMP-Networks/TMP-Networks-Marketing-Tool/marketing-tool.git
-cd marketing-tool
+git clone https://github.com/MTSmash-TMP-Networks/TMP-Networks-Marketing-Tool.git
+cd TMP-Networks-Marketing-Tool
 ```
 
 ### **2. Virtuelle Umgebung erstellen**
